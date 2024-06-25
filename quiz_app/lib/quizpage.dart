@@ -1,7 +1,7 @@
 //Complete QuizApp inluding Modal class
 
 import 'package:flutter/material.dart';
-import 'package:quiz_app/model class/quizModel.dart';
+//import 'package:quiz_app/model class/quizModel.dart';
 
 class QuizPage extends StatefulWidget {
   const QuizPage({super.key});
