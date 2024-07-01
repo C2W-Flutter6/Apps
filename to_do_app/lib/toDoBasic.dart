@@ -98,7 +98,7 @@ class _ToDoBasicUI extends State {
                   ),
                   TextField(
                     controller: descriptionController,
-                    maxLines: 4,
+                    maxLines: 5,
                     decoration: InputDecoration(
                       focusedBorder: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(12),
