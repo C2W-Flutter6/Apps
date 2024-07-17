@@ -1,18 +1,21 @@
 import 'package:flutter/material.dart';
 
-class HomePage extends StatelessWidget {
-  const HomePage({super.key});
+class ToDoAppUI extends StatefulWidget {
+  const ToDoAppUI({super.key});
 
+  @override
+  State<ToDoAppUI> createState() => _ToDoAppUIState();
+}
+
+class _ToDoAppUIState extends State<ToDoAppUI> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Home'),
-      ),
-      body: const Center(
-        child: Text(
-          'This is a new app',
-          style: TextStyle(fontSize: 24),
+      backgroundColor: const Color.fromRGBO(111, 81, 255, 1),
+      body: Padding(
+        padding: const EdgeInsets.only(top: 100),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.start,
         ),
       ),
     );
