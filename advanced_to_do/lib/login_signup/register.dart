@@ -128,7 +128,8 @@ class _MyRegisterState extends State<MyRegister> {
                               ),
                               CircleAvatar(
                                 radius: 30,
-                                backgroundColor: const Color(0xff4c505b),
+                                backgroundColor:
+                                    const Color.fromARGB(255, 182, 191, 216),
                                 child: IconButton(
                                     color: Colors.white,
                                     onPressed: () {
