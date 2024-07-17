@@ -6,11 +6,11 @@ import 'ThirdPage.dart';
 void main() {
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
-    home: MyLogin(),
+    home: const MyLogin(),
     routes: {
-      'register': (context) => MyRegister(),
-      'login': (context) => MyLogin(),
-      'home': (context) => ToDoAppUI(),
+      'register': (context) => const MyRegister(),
+      'login': (context) => const MyLogin(),
+      'home': (context) => const ToDoAppUI(),
     },
   ));
 }
