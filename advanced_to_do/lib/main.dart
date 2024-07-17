@@ -10,7 +10,7 @@ void main() {
     routes: {
       'register': (context) => const MyRegister(),
       'login': (context) => const MyLogin(),
-      'home': (context) => const HomePage(),
+      'home': (context) => const ToDoAppUI(),
     },
   ));
 }
