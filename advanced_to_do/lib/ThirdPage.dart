@@ -209,7 +209,7 @@ class _ToDoAppUIState extends State<ToDoAppUI> {
     return Scaffold(
       backgroundColor: const Color.fromRGBO(111, 81, 255, 1),
       body: Padding(
-        padding: const EdgeInsets.only(top: 100),
+        padding: const EdgeInsets.only(top: 80),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.start,
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -239,12 +239,12 @@ class _ToDoAppUIState extends State<ToDoAppUI> {
                 width: double.infinity,
                 child: Column(
                   children: [
-                    const SizedBox(height: 30),
+                    const SizedBox(height: 20),
                     Text(
                       "CREATE TASKS",
                       style: GoogleFonts.quicksand(
                         fontWeight: FontWeight.w500,
-                        fontSize: 15,
+                        fontSize: 20,
                       ),
                     ),
                     const SizedBox(height: 10),
@@ -312,6 +312,9 @@ class _ToDoAppUIState extends State<ToDoAppUI> {
                                               size: 20,
                                             ),
                                           ),
+                                          onTap: () {
+                                            showBottomSheet(true);
+                                          },
                                         ),
                                         const SizedBox(
                                           height: 5,
