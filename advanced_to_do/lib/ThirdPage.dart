@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:intl/intl.dart';
-//import 'todo_model_class.dart';
+import 'todo_model_class.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
 
 class ToDoAppUI extends StatefulWidget {
