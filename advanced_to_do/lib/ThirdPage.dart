@@ -361,7 +361,7 @@ class _ToDoAppUIState extends State<ToDoAppUI> {
                                                 217, 217, 217, 1),
                                           ),
                                           child: Image.asset(
-                                            "assets/circleImage.png",
+                                            "assets/circleImage.jpg",
                                           ),
                                         ),
                                         const SizedBox(
